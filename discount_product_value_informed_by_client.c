@@ -1,3 +1,8 @@
+/*
+Client will inform: product code, value and discount. If discount is greater than 30 per cent, then it will applies the maximum of 30 per cent discount. Otherwise,
+it will apply the value informed by the client.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

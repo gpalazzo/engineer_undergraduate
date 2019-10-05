@@ -5,8 +5,8 @@
 
 float work_force_value, raw_mat_value, pis, inss, prod_price;
 
-main ()
-{
+main () {
+
 	printf ("Raw material value: \n");
 	scanf ("%f", &raw_mat_value);
 	printf ("Work force value: \n");
@@ -19,4 +19,5 @@ main ()
 	printf ("INSS tax value: %.2f\n", inss);
 	
 	system ("pause");
+	
 }

@@ -5,8 +5,8 @@
 
 int mult_table, i, R;
 
-main ()
-{
+main () {
+
 	printf ("Natural number: \n");
 	scanf ("%d", &mult_table);
 	printf ("Multiplication table from 0 to 10:\n");
@@ -17,11 +17,10 @@ main ()
 			printf ("%dx%d=%d\n", mult_table, i, R);
 		}
 
-	}
-
-	else{
+	} else{
 	printf ("Invalid value.\n");
 	}
 
 	system ("pause");
+
 }

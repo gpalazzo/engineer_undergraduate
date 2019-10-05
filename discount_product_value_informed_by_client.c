@@ -9,8 +9,8 @@ it will apply the value informed by the client.
 int code;
 float value, perc_discount, price;
 
-main ()
-{
+main () {
+
 	printf ("Inform a code to the product:\n");
 	scanf ("%d", &code);
 	printf ("Product value:\n");
@@ -20,9 +20,7 @@ main ()
 	
 	if ( perc_discount <= 30 ) {
 		price = ((100-perc_discount)/100)*value;
-	}
-
-	else {
+	} else {
 		printf ("Maximum discount is 30 per cent, so we will use it.\n");
 		price = (value*0.7);
 	}
@@ -30,5 +28,6 @@ main ()
 	printf ("Product value without discount: %.2f\n",  value);
 	printf ("Product value with discount: %.2f\n", price);
 	
-	system ("pause");	
+	system ("pause");
+		
 }

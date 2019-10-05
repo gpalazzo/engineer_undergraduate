@@ -6,11 +6,12 @@
 int age_years;
 float age_days;
 
-main ()
-{
+main () {
+
 	printf ("Age in years: ");
 	scanf ("%d", &age_years);
 	age_days=(age_years*365.25);
 	printf ("Age in days: %.2f\n", age_days);
 	system ("pause");
+
 }

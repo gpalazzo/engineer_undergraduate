@@ -1,1 +1,1 @@
-Exercises using arrays
+Exercises using arrays.

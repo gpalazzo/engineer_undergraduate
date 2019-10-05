@@ -1,2 +1,2 @@
 # undergrad_exercises
-Exercises in C language build during the first year of graduation in Engineering.
+Exercises in C language build during the first year of undergraduate in Engineering.
